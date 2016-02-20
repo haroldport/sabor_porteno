@@ -9,9 +9,12 @@
 }
 
 .logo{
-	width: 20%;
+	width: 30%;
 	@include desde($large){
 		width: 18%;
+	}
+	@include desde($medium){
+		width: 20%;
 	}
 }
 

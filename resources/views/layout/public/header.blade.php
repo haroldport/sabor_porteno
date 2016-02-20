@@ -24,7 +24,7 @@
                     <a href="/" class="main-menu__link">Inicio</a>
                 </li>
                 <li class="main-menu__item">
-                    <a href="" class="main-menu__link">Quiénes somos</a>
+                    <a href="/quienes-somos" class="main-menu__link">Quiénes somos</a>
                 </li>
                 <li class="main-menu__item">
                     <a href="" class="main-menu__link">Establecimientos</a>
