@@ -1,0 +1,46 @@
+//colors
+$color1		: #CC1E1B;
+$color2		: #D35D16;
+$color3		: #6CACC7;
+$color4		: #D88609;
+$black		: #111;
+$white		: #fff;
+
+//fonts
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+$font-title : 'Oswald', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+$font-text  : 'Lato', sans-serif;
+
+//fonts weight
+$light      : 300;
+$normal		: 400;
+
+//layout
+$max-width: 1200px;
+
+//off canvas
+$offcanvas-width: 15em;
+
+//mixin media query
+@mixin desde($size){
+	@media screen and (min-width: $size) {
+		@content;
+	}
+}
+
+//breakpoints
+$small: 480px;
+$medium: 768px;
+$large: 1025px;
+$x-large: 1400px;
+
+//imports
+@import "components/base";
+@import "components/header";
+@import "components/menu";
+@import "components/banner";
+@import "components/buttons";
+@import "components/establishments";
+@import "components/modules";
+@import "components/footer";

@@ -1,0 +1,27 @@
+.establishments{
+	@include desde($medium){
+		display: flex;
+	}
+	text-align: center;
+}
+
+.establishment{
+	background: $white;
+	height: 6em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $black;
+	@include desde($medium){
+		flex: 1 1 20%;
+	}
+	@include desde($large){
+		height: 13em;
+	}
+	&:nth-child(odd){
+		background: $color3;
+	}
+	&__title{
+		margin: 0;
+	}
+}

@@ -1,0 +1,22 @@
+.main-header{
+	background: $white;
+	padding: 1em 0;
+	.l-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.logo{
+	width: 20%;
+	@include desde($large){
+		width: 18%;
+	}
+}
+
+.icon-menu{
+	color: $color1;
+	cursor: pointer;
+	font-size: 2em;
+}
