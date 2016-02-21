@@ -18,10 +18,10 @@ class CreateEstablishmentsTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('address',255);
-            $table->string('description');
+            $table->text('description');
             $table->string('type');
-            $table->string('phone');
-            $table->string('images');
+            $table->string('phone')->nullable();
+            $table->string('images')->nullable();
             $table->double('lat');
             $table->double('lon');
             $table->timestamps();

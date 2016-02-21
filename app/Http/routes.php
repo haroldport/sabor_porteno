@@ -1,8 +1,6 @@
 <?php
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'Atomcorp\Http\Controllers\HomeController@getHome');
 
 Route::get('/contact', function () {
     return view('contact');

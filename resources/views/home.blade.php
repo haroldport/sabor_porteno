@@ -3,21 +3,11 @@
     @include('layout.public.banner')
     <main>
         <div class="establishments">
-            <div class="establishment">
-                <h3 class="establishment__title">Sánduches "El primo"</h3>
-            </div>
-            <div class="establishment">
-                <h3 class="establishment__title">Corozo el verdadero</h3>
-            </div>
-            <div class="establishment">
-                <h3 class="establishment__title">Dulcería La Palma</h3>
-            </div>
-            <div class="establishment">
-                <h3 class="establishment__title">El Manabita</h3>
-            </div>
-            <div class="establishment">
-                <h3 class="establishment__title">Picantería El Pez Volador</h3>
-            </div>
+            @foreach($establishments as $establishment)
+                <div class="establishment">
+                    <h3 class="establishment__title">{{ $establishment->name }}</h3>
+                </div>
+            @endforeach
         </div>
 
         <div class="map-container l-container">
