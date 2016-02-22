@@ -27,28 +27,28 @@
             delicias cada día.</p>
         <p>Acompáñanos a recorrer este camino y a disfrutar de la deliciosa gastronomía que ofrece esta
             hermosa ciudad.</p>
-        <h2 class="subtitle">Equipo</h2>
-        <div class="staff-container">
-            <div class="staff-member">
-                <img src="{{asset('assets/img/staff1.jpg')}}" alt="" class="staff-member__img">
-                <h3 class="staff-member__name">Brayam</h3>
-                <a href="#" class="staff-member__button">Contactar</a>
-            </div>
-            <div class="staff-member">
-                <img src="{{asset('assets/img/staff2.jpeg')}}" alt="" class="staff-member__img">
-                <h3 class="staff-member__name">Brittany</h3>
-                <a href="#" class="staff-member__button">Contactar</a>
-            </div>
-            <div class="staff-member">
-                <img src="{{asset('assets/img/staff3.jpg')}}" alt="" class="staff-member__img">
-                <h3 class="staff-member__name">Briggit</h3>
-                <a href="#" class="staff-member__button">Contactar</a>
-            </div>
-            <div class="staff-member">
-                <img src="{{asset('assets/img/staff4.jpg')}}" alt="" class="staff-member__img">
-                <h3 class="staff-member__name">Kimberly</h3>
-                <a href="#" class="staff-member__button">Contactar</a>
-            </div>
-        </div>
+        {{--<h2 class="subtitle">Equipo</h2>--}}
+        {{--<div class="staff-container">--}}
+            {{--<div class="staff-member">--}}
+                {{--<img src="{{asset('assets/img/staff1.jpg')}}" alt="" class="staff-member__img">--}}
+                {{--<h3 class="staff-member__name">Brayam</h3>--}}
+                {{--<a href="#" class="staff-member__button">Contactar</a>--}}
+            {{--</div>--}}
+            {{--<div class="staff-member">--}}
+                {{--<img src="{{asset('assets/img/staff2.jpeg')}}" alt="" class="staff-member__img">--}}
+                {{--<h3 class="staff-member__name">Brittany</h3>--}}
+                {{--<a href="#" class="staff-member__button">Contactar</a>--}}
+            {{--</div>--}}
+            {{--<div class="staff-member">--}}
+                {{--<img src="{{asset('assets/img/staff3.jpg')}}" alt="" class="staff-member__img">--}}
+                {{--<h3 class="staff-member__name">Briggit</h3>--}}
+                {{--<a href="#" class="staff-member__button">Contactar</a>--}}
+            {{--</div>--}}
+            {{--<div class="staff-member">--}}
+                {{--<img src="{{asset('assets/img/staff4.jpg')}}" alt="" class="staff-member__img">--}}
+                {{--<h3 class="staff-member__name">Kimberly</h3>--}}
+                {{--<a href="#" class="staff-member__button">Contactar</a>--}}
+            {{--</div>--}}
+        {{--</div>--}}
     </div>
 @stop

@@ -19,7 +19,7 @@ class MainController extends Controller
     }
 
     public function getHome(){
-        $establishments = $this->establishmentService->findByLimit(5);
+        $establishments = $this->establishmentService->findByLimit(10);
         return view('home', array('establishments' => $establishments));
     }
 

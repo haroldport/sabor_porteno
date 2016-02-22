@@ -216,7 +216,7 @@ body {
 
 .establishment {
   background: #fff;
-  height: 6em;
+  height: 7em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +227,7 @@ body {
       flex: 1 1 20%; } }
   @media screen and (min-width: 1025px) {
     .establishment {
-      height: 13em; } }
+      height: 8em; } }
   .establishment:nth-child(odd) {
     background: #6CACC7; }
   .establishment__title {
