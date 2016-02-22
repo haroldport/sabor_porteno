@@ -22,4 +22,13 @@ class EstablishmentRepository implements IEstablishmentRepository
             ->get();
         return $establishments;
     }
+
+    public function findById($id)
+    {
+        $establishment = Establishment::where('id', $id)
+            ->orderBy('name', 'asc')
+            ->take(1)
+            ->get();
+        return $establishment;
+    }
 }

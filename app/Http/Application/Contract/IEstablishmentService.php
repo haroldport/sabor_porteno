@@ -12,4 +12,6 @@ namespace Atomcorp\Http\Application\Contract;
 interface IEstablishmentService
 {
     public function findByLimit($limit);
+
+    public function findById($id);
 }

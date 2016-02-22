@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Atomcorp\Http\Requests;
 use Atomcorp\Http\Controllers\Controller;
 
-class HomeController extends Controller
+class MainController extends Controller
 {
 
     private $establishmentService;
@@ -21,5 +21,15 @@ class HomeController extends Controller
     public function getHome(){
         $establishments = $this->establishmentService->findByLimit(5);
         return view('home', array('establishments' => $establishments));
+    }
+
+    public function getEstablishments(){
+        $establishments = $this->establishmentService->findByLimit(10);
+        return view('establishments', array('establishments' => $establishments));
+    }
+
+    public function getEstablishment($id){
+        $establishment = $this->establishmentService->findById($id);
+        return view('establishment', array('establishment' => $establishment));
     }
 }

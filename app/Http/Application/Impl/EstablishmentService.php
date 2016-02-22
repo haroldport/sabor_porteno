@@ -25,4 +25,9 @@ class EstablishmentService implements IEstablishmentService
     {
         return $this->establishmentRepository->findByLimit($limit);
     }
+
+    public function findById($id)
+    {
+        return $this->establishmentRepository->findById($id);
+    }
 }

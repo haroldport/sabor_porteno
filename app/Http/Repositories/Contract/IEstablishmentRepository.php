@@ -12,4 +12,6 @@ namespace Atomcorp\Http\Repositories\Contract;
 interface IEstablishmentRepository
 {
     public function findByLimit($limit);
+
+    public function findById($id);
 }
