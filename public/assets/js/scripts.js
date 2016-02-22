@@ -19,7 +19,7 @@ $(function(){
 			var map = new google.maps.Map(mapDiv[0], mapOptions);
 			var marker = new google.maps.Marker({
 				position: latlng,
-				title: latLon[2],
+				title: latLon[2] + '--> click aquí',
 				map: map
 			});
 			google.maps.event.addListener(marker, 'click', (function (marker) {
