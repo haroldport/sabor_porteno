@@ -5,6 +5,8 @@ $(function(){
 		nav.add($('body')).toggleClass('show');
 	});
 
+	$(".rslides").responsiveSlides();
+
 	$(".establishment").each(function (){
 		var geopoint = $(this).children('input').attr('value');
 		var divId = '#' + $(this).attr('id');

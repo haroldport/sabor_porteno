@@ -3,7 +3,6 @@
 namespace Atomcorp\Http\Controllers;
 
 use Atomcorp\Http\Application\Contract\IEstablishmentService;
-use Illuminate\Http\Request;
 
 use Atomcorp\Http\Requests;
 use Atomcorp\Http\Controllers\Controller;

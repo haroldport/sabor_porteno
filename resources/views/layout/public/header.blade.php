@@ -7,7 +7,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://file.myfontastic.com/29yB9EXvwxuGarkqP9krkC/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('assets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('assets/css/responsiveslides.css') }}">
     <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="{{ asset('assets/js/responsiveslides.min.js') }}"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPiDuTRROWhkyGGO2qkdZiCTA-_8UiSa0"></script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>
 </head>

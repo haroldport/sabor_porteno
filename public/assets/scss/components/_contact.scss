@@ -10,13 +10,16 @@
 }
 
 .contact-data{
+  a{
+    color: $black;
+  }
+  margin-bottom: 1em;
   .contact-address,
   .contact-phone{
-    font-size: .85em;
-    opacity: .8;
+    font-size: 1em;
     color: $black;
     &:before{
-      margin-right: .3em;
+      margin-right: .5em;
       position: relative;
       top: 2px;
     }

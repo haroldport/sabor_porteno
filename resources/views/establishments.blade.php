@@ -5,7 +5,7 @@
         @foreach($establishments as $establishment)
             <div class="list-establishment">
                 <div class="establishment-container">
-                    <img src="{{ asset('assets/img/corozo1.jpg') }}" alt="">
+                    <img src="{{ asset('assets' . Images::getImageArray($establishment->images)[0]) }}" alt="">
                     <div class="establishment-description">
                         <h3 class="establishment-name">{{ $establishment->name }}</h3>
                         <p>{{ $establishment->type }}</p>

@@ -18,7 +18,8 @@
     },
     "autoload": {
         "classmap": [
-            "database"
+            "database",
+            "app/Http"
         ],
         "psr-4": {
             "Atomcorp\\": "app/"

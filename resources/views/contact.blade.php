@@ -2,11 +2,9 @@
 @section('content')
     <div class="contact l-container">
         <div class="contact-data">
-            <h2 class="subtitle">Contacto</h2>
-            <div class="contact-address icon-facebook">Fan Page</div>
-            {{--<div class="contact-address icon-pin">9 de Octubre y Chimborazo</div>--}}
-            {{--<div class="contact-phone icon-phone">042 480 600</div>--}}
-            {{--<div class="contact-phone icon-mobile">098 869 3090</div>--}}
+            <h2 class="subtitle">Redes Sociales</h2>
+            <div class="contact-address icon-facebook"><a href="http://facebook.com/saborportenotg">http://facebook.com/saborportenotg</a></div>
+            <div class="contact-address icon-instagram"><a href="http://instagram.com/saborportenotg">http://instagram.com/saborportenotg</a></div>
         </div>
         <div class="contact-form-container">
             <h2 class="subtitle">Escríbenos</h2>

@@ -14,6 +14,7 @@ class Establishment extends Model
     protected $type;
     protected $phone;
     protected $images;
+    protected $imagesArray;
     protected $lat;
     protected $lon;
     protected $fillable = ['name', 'email', 'address', 'description', 'type', 'phone', 'images', 'lat', 'lon'];
@@ -57,6 +58,12 @@ class Establishment extends Model
     {
         return $this->images;
     }
+
+    public function getImagesArray()
+    {
+        return explode($this->images,';');
+    }
+
 
     public function getLat()
     {
