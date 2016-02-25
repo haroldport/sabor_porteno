@@ -96,7 +96,7 @@ class EstablishmentSeeder extends Seeder
         );
 
         DB::table('establishments')->insert(
-            ['name' => 'Palacio de los secos',
+            ['name' => 'El Palacio de los Secos',
                 'email' => 'palaciosecos@gmail.com',
                 'address' => '9 de Octubre y José Mascote',
                 'description' => '<p>Uno de los establecimientos más reconocidos de la ciudad de Guayaquil es sin duda El Palacio de los secos, un restaurante ubicado en las calles José Mascote y 9 de Octubre, donde el plato típico es su seco de gallina que a su vez se acompaña con arroz, maduro frito, salsa de ají y aguacate. Este exquisito plato es el principal en el menú, pero además ofrecen otros secos tradicionales como el de chivo, cerdo y pato, además de otros platos como caldo de bolas, caldo de pata, caldo de gallina criolla, bandera, entre otros.</p> <p>Creado por la guayaquileña Sandra Assanza Ordóñez ya desde el 2010, ha hecho de este establecimiento algo más que un lugar donde comer rico. Este edificio que data del siglo XIX, que fue declarada Patrimonio Cultural y en la que estaba un antiguo atracadero de canoas cuenta una historia propia que va de la mano con la evolución de Guayaquil.</p> <p>Sus propietarios se han encargado de ofrecer a sus clientes más allá de una carta de exquisitos platos. El servicio es algo característico de este local, ofreciendo un excelente ambiente, cómodo, y en el cual más allá del exquisito olor de sus platos, se puede respirar arte, muestra de ello es aquel pianista que toca en vivo, mientras se atiende a los clientes. Sin duda un lugar que no puede faltar en tu itinerario dentro de la ciudad.</p>',
@@ -110,7 +110,7 @@ class EstablishmentSeeder extends Seeder
         );
 
         DB::table('establishments')->insert(
-            ['name' => 'Palacio del Bollo',
+            ['name' => 'El Palacio del Bollo',
                 'email' => 'palaciobollos@gmail.com',
                 'address' => 'Letamendi # 106 y Eloy Alfaro',
                 'description' => '<p>Ya son 48 años de antigüedad que tiene este reconocido lugar. Tal como menciona su propietario Isaías Morán, esta es la segunda generación de la familia a cargo del local, caracterizado por tradición, sabor, frescura,  es otro de los restaurantes que posee la calificación de las tres b, bueno, bonito y barato.</p> <p>El producto que caracteriza el establecimiento y que a su vez le da parte de su nombre es sin duda el bollo, el cual tal como menciona el propietario “es su producto estrella”.</p> <p>¿Cuál es el secreto para mantenerse 48 años en el mercado?, sin duda es el cuidado que se le da al producto, cuidando la calidad del mismo y el servicio que le acompaña. Se ha vuelto una especie de marca registrada, pero sobretodo en un producto popular que han disfrutado una clientela muy variada como periodistas políticos, etc.</p> <p>Si quieres disfrutar de un plato típico lleno de tradición y sabor debes acercarte a El Palacio del Bollo, donde si gustas puedes acompañarlo con una exquisita papa rellena, algo que sin duda saciará el hambre en cuestión de segundos.</p>',

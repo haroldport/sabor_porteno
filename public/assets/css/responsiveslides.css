@@ -27,5 +27,11 @@
     display: block;
     margin: 0 auto;
     height: auto;
-    width: 60%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+    .rslides img {
+        width: 70%;
+    }
 }

@@ -14,6 +14,6 @@
         <div class="contact-address icon-pin">{{ $establishment[0]->address }}</div>
         <div class="contact-phone icon-phone">{{ $establishment[0]->phone }}</div>
         <div class="contact-phone icon-type">{{ $establishment[0]->type }}</div>
-        <div class="contact-phone icon-mail">{{ $establishment[0]->email }}</div>
+        {{--<div class="contact-phone icon-mail">{{ $establishment[0]->email }}</div>--}}
     </div>
 @stop
