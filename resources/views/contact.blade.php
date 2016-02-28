@@ -8,7 +8,7 @@
         </div>
         <div class="contact-form-container">
             <h2 class="subtitle">Escríbenos</h2>
-            <form action="" method="post" class="contact-form">
+            <form action="{{ url('/sendMail') }}" method="post" class="contact-form">
                 <label for="name">Nombre</label>
                 <input type="text" id="name" name="name">
                 <label for="email">Su correo</label>

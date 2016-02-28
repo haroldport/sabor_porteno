@@ -1,6 +1,7 @@
 <?php
 
 Route::get('/', 'Atomcorp\Http\Controllers\MainController@getHome');
+Route::post('/sendMail', 'Atomcorp\Http\Controllers\MainController@sendMail');
 
 Route::get('/contact', function () {
     return view('contact');
