@@ -16,7 +16,7 @@ $(function(){
 			var mapDiv = $('#map');
 			var mapOptions = {
 				center: latlng,
-				zoom: 17
+				zoom: 19
 			};
 			var map = new google.maps.Map(mapDiv[0], mapOptions);
 			var marker = new google.maps.Marker({
@@ -26,7 +26,7 @@ $(function(){
 			});
 			google.maps.event.addListener(marker, 'click', (function (marker) {
 				return function () {
-					window.location.href = "/establishment/" + latLon[3];
+					window.location.href = "/saborportenotg/public/establishment/" + latLon[3];
 				}
 			}(marker)))
 		});
